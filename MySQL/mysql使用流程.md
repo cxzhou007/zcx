@@ -11,7 +11,9 @@
 0、创建数据库，运行已存在的SQL文件：
 需要将create.sql文件拷贝到bin文件夹下，否则source后面要加绝对路径
 create database name;
+use name;
 source create.sql;
+source populate.sql;
 
 1、MySQL常用命令
 create database name; 创建数据库
