@@ -13,7 +13,7 @@
 create database name;
 use name;
 source create.sql;
-source populate.sql;
+source populate.sql;(若出错，重新执行use name;)
 
 1、MySQL常用命令
 create database name; 创建数据库
